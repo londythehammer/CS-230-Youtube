@@ -1,0 +1,48 @@
+a.navbar-brand {
+    position:absolute; left:75px;
+    position:absolute; top: 0px;
+
+    block-size: 60px;
+}
+
+.youtube-logo {
+    position:absolute; left:40px;
+    position:absolute; top: 0px;
+    size:absolute;
+}
+
+#headerbar{ /*Grabs the id*/
+    color: red;
+}
+
+#searchbutton{
+    display: inline-block;
+    background-color: rgb(231, 231, 231);
+    outline-style: auto;
+    outline-color: rgb(214, 209, 209);
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: 30px;
+}
+
+#searchbar{
+    position: absolute; left: 400px;
+}
+
+.collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+#headericon
+{
+    width: 8%;
+    height: 8%;
+    margin-inline: 15px;
+}
+
