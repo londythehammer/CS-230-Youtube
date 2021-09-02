@@ -1,3 +1,21 @@
 <!--<link rel =  "stylesheet" type = "text/css" href = "node_modules/bootstrap/dist/css/bootstrap.css">--> 
 <header-bar></header-bar>
-<sidebar-bar></sidebar-bar>
+<div class = "row">
+
+<div class = "col-1">
+    <sidebar-bar></sidebar-bar>
+</div>
+
+<div id = sideBarCollapse class = "col-2" #a 
+[attr.disabled]="isDisabled"
+(click)="SidebarToggle()">
+    <sidebar-collapse></sidebar-collapse>
+</div>
+
+<div class = "col-8">
+    <homescreen></homescreen>
+</div>
+</div>
+
+
+<!--sidebar-collapse></sidebar-collapse-->

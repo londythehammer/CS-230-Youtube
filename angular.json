@@ -44,7 +44,9 @@
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css",
               "src/app/header/header.css",
-              "src/app/sidebar/sidebar.css"
+              "src/app/sidebar/sidebar.css",
+              "src/app/sidebar/sidebarCollapse.css",
+              "src/app/homescreen/homescreen.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"

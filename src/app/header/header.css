@@ -41,8 +41,42 @@ a.navbar-brand {
 
 #headericon
 {
-    width: 8%;
-    height: 8%;
-    margin-inline: 15px;
+    display: inline-block;
+    background: none;
+    outline: none;
+    outline-color: rgb(214, 209, 209);
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    
 }
 
+#dropdownMenuButton1
+{
+    display: inline-block;
+    background: none;
+    outline: none;
+    border: none;
+    outline-color: rgb(214, 209, 209);
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: 35px;
+}
+
+#HeaderDropdown
+{
+    display: inline-block;
+    background: none;
+    outline: none;
+    outline-color: rgb(214, 209, 209);
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: 35px;
+
+    margin-inline: 12px;
+}

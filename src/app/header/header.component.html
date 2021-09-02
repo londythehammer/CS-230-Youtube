@@ -65,7 +65,7 @@
                     <div class = "col-1">
                         <a class="navbar-brand" class="d-inline-block" href="#">
                             <!--Expand Button-->
-                              <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#sideBarCollapse" aria-expanded="false" aria-controls="navbarToggleExternalContent">
+                              <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#sideBarCollapse" aria-expanded="false" aria-controls="collapseExample">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                           </a>
@@ -89,14 +89,67 @@
                     <div class = "col-2"> <!--Just spacing-->
                     </div>  
                     <div class = "col-2">
-                        <!--Upload Video-->
-                        <img src="app/img/videoicon.png" alt="" id = "headericon">
-                        <!--Youtube Apps-->
-                        <img src="app/img/appsicon.png" alt="" id = "headericon">
-                        <!--Bell Notification-->
-                        <img src="app/img/bellicon.png" alt="" id = "headericon">
-                        <!--Profile Icon-->
-                        <img src="app/img/profileicon.png" alt="" id = "headericon" style="height: 27.5px; width: auto;">
+
+                      <!--Upload Video-->
+                      <div class="dropdown" id = HeaderDropdown>
+                        <button class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="app/img/videoicon.png" alt="" id = "headericon">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Upload a video</a></li>
+                          <li><a class="dropdown-item" href="#">Go live</a></li>
+                        </ul>
+                      </div>
+
+                      <!--Youtube Apps-->
+                      <div class="dropdown" id = HeaderDropdown>
+                        <button class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="app/img/appsicon.png" alt="" id = "headericon">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">YouTube TV</a></li>
+                          <li><a class="dropdown-item" href="#">YouTube Music</a></li>
+                          <li><a class="dropdown-item" href="#">YouTube Kids</a></li>
+                          <li><a class="dropdown-item" href="#">Creator Academy</a></li>
+                          <li><a class="dropdown-item" href="#">YouTube for Artists</a></li>
+                        </ul>
+                      </div>
+                       
+                      <!--Bell Notification-->
+                      <div class="dropstart" id = HeaderDropdown>
+                        <button class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="app/img/bellicon.png" alt="" id = "headericon">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                      
+                      <!--Profile Icon-->
+                      <div class="dropstart" id = HeaderDropdown>
+                        <button class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="app/img/profileicon.png" alt="" id = "headericon" style="height: 27.5px; width: auto;">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Your channel</a></li>
+                          <li><a class="dropdown-item" href="#">Purchase and memberships</a></li>
+                          <li><a class="dropdown-item" href="#">YouTube Studio</a></li>
+                          <li><a class="dropdown-item" href="#">Switch account</a></li>
+                          <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                          <li><a class="dropdown-item" href="#">Appearance: Device theme</a></li>
+                          <li><a class="dropdown-item" href="#">Language: English</a></li>
+                          <li><a class="dropdown-item" href="#">Location: United States</a></li>
+                          <li><a class="dropdown-item" href="#">Settings</a></li>
+                          <li><a class="dropdown-item" href="#">Settings</a></li>
+                          <li><a class="dropdown-item" href="#">Your data in YouTube</a></li>
+                          <li><a class="dropdown-item" href="#">Help</a></li>
+                          <li><a class="dropdown-item" href="#">Send feedback</a></li>
+                          <li><a class="dropdown-item" href="#">Keyboard shortcuts</a></li>
+                          <li><a class="dropdown-item" href="#">Restricted Mode: Off</a></li>
+                        </ul>
+                      </div>
                     </div> 
                 </nav>
             </div>

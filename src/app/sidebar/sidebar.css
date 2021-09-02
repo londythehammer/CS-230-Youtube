@@ -8,6 +8,7 @@
 
 #sidebaricon
 {   
+    position: absolute;
     margin-top: 10px;
     position: relative;
     color: black;
@@ -21,6 +22,6 @@
     font-size: 70%;
     text-align: center;
     padding: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     /*text-align: center;*/
 }

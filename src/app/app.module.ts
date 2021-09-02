@@ -3,13 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './header/header.component';
+import { HomeScreenComponent } from './homescreen/homescreen.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SidebarCollapseComponent } from './sidebar/sidebarCollapse.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    SidebarComponent
+    SidebarComponent,
+    SidebarCollapseComponent,
+    HomeScreenComponent
   ],
   imports: [
     BrowserModule
