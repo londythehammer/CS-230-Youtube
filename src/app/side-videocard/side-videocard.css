@@ -1,0 +1,27 @@
+#sideVideoCard .reccomendation
+{
+    display: flex;
+    cursor: pointer;
+}
+
+#sideVideoCard .view-info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sideVideoCard .preview
+{
+    position: relative;
+}
+
+#sideVideoCard .timestamp
+{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    padding: 0.15rem;
+    border-radius: 0.25rem;
+}
