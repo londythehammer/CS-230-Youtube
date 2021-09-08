@@ -1,6 +1,6 @@
 .grid-container
 {
-    background-color: rgb(245, 245, 245);
+    background-color: rgba(0, 0, 0, 0.05);
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
