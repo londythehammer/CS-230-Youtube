@@ -43,13 +43,7 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css",
-              "src/app/header/header.css",
-              "src/app/sidebar/sidebar.css",
-              "src/app/sidebar/sidebarCollapse.css",
-              "src/app/homescreen/homescreen.css",
-              "src/app/carousel/carousel.css",
-              "src/app/videocard/videocard.css",
-              "src/app/side-videocard/side-videocard.css"
+              "src/app/header/header.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
