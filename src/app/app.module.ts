@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { TopNavBarComponent } from './header/header.component';
 import { HomeScreenComponent } from './homescreen/homescreen.component';
+import { LayoutComponent } from './layout/layout.component';
 import { SideVideoCardComponent } from './side-videocard/side-videocard.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarCollapseComponent } from './sidebar/sidebarCollapse.component';
@@ -19,7 +20,8 @@ import { VideoCardComponent } from './videocard/videocard.component';
     HomeScreenComponent,
     CarouselComponent,
     VideoCardComponent,
-    SideVideoCardComponent
+    SideVideoCardComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule

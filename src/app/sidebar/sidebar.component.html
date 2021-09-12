@@ -4,9 +4,10 @@
 #sidebar
 {
     height: 1000px;
-    width: 70px;
-
+    width: 75px;
+    top: 50px;
     color: black;
+    position: fixed;
 }
 
 #sidebaricon
@@ -31,7 +32,7 @@
 </style>
 
 <body id = "normalSidebar">
-  <nav id = "sidebar" class="navbar navbar-light bg-white navbar-expand d-flex flex-column align-item-start">
+  <nav id = "sidebar" class="navbar navbar-light bg-white navbar-expand d-flex flex-column">
     <table style="margin-left:auto; margin-right:auto;">
       <tr>
         <td>
@@ -73,24 +74,47 @@
   </nav>
 </body>
 
-<!--DOCTYPE html>
-
-<body id = "completeSidebar">
+<!-- Backup code
+  <body id = "normalSidebar">
   <nav id = "sidebar" class="navbar navbar-light bg-white navbar-expand d-flex flex-column align-item-start">
-    <li class = "row">
-        <img src="app/img/homeicon.png" id = "sidebaricon" style="width: 55%; height: auto;">
-        <div id = "sidebartextSmall">Home</div>
-  
-        <img src="app/img/exploreicon.png" id = "sidebaricon" style="width: 55%; height: auto;">
-        <div id = "sidebartextSmall">Explore</div>
-  
-        <img src="app/img/subscriptionicon.png" id = "sidebaricon" style="width: 50%; height: auto;">
-        <div id = "sidebartextSmall">Subscriptions</div>
-  
-        <img src="app/img/libraryicon.png" id = "sidebaricon" style="width: 50%; height: auto;">
-        <div id = "sidebartextSmall">Library</div>
-    </li>
-  </nav>
-</body-->
+    <table style="margin-left:auto; margin-right:auto;">
+      <tr>
+        <td>
+          <button style="border: none; background: none;">
+            <img src="app/img/homeicon.png" id = "sidebaricon" style="width: 45%; height: auto;">
+            <div id = "sidebartextSmall">Home</div>
+          </button>
+        </td>
+      </tr>
 
-<!--class = "collapse collapse-horizontal"-->
+      <tr>
+        <td>
+          <button style="border: none; background: none;">
+            <img src="app/img/exploreicon.png" id = "sidebaricon" style="width: 45%; height: auto;">
+            <div id = "sidebartextSmall">Explore</div>
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button style="border: none; background: none;">
+            <img src="app/img/subscriptionicon.png" id = "sidebaricon" style="width: 40%; height: auto;">
+            <div id = "sidebartextSmall">Subscriptions</div>
+          </button>   
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button style="border: none; background: none;">
+            <img src="app/img/libraryicon.png" id = "sidebaricon" style="width: 40%; height: auto;">
+            <div id = "sidebartextSmall">Library</div>
+          </button>
+        </td>
+      </tr>
+
+    </table>
+  </nav>
+</body>
+-->

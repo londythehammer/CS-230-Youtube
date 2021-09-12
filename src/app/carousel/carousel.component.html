@@ -6,7 +6,12 @@
     background-color: white;
     border-style: solid;
     border-width: thin;
+    border-width: 1px 0;
     border-color:rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 56.5px;
+    width: 95.1%;
+    z-index: 1;
 }
 
 #carouselButton
@@ -30,7 +35,7 @@
   margin: auto;
 }
 </style>
-<div id="carouselControl" class="carousel slide carousel-dark container-fluid" data-interval="false" data-bs-interval="false">
+<div id="carouselControl" class="carousel slide carousel-dark container-fluid d-flex-row" data-interval="false" data-bs-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="false" data-bs-interval="false"> 
         <button id = carouselButton>All</button>

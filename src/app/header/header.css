@@ -1,5 +1,5 @@
 a.navbar-brand {
-    position:absolute; left:75px;
+    position:absolute; left:80px;
     position:absolute; top: 0px;
 
     block-size: 60px;
@@ -9,10 +9,6 @@ a.navbar-brand {
     position:absolute; left:40px;
     position:absolute; top: 0px;
     size:absolute;
-}
-
-#headerbar{ /*Grabs the id*/
-    color: red;
 }
 
 #searchbutton{
