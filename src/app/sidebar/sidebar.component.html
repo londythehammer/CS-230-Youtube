@@ -21,6 +21,16 @@
     margin-right: auto;
 }
 
+.active #sidebartextSmall
+{   
+    font-size: 70%;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+
 #sidebartextSmall
 {
     font-size: 70%;
@@ -36,7 +46,7 @@
     <table style="margin-left:auto; margin-right:auto;">
       <tr>
         <td>
-          <button style="border: none; background: none;">
+          <button class = "text-black" routerLink = "/home" routerLinkActive = "active" style="border: none; background: none;" #rla="routerLinkActive">
             <img src="app/img/homeicon.png" id = "sidebaricon" style="width: 45%; height: auto;">
             <div id = "sidebartextSmall">Home</div>
           </button>
@@ -45,7 +55,7 @@
 
       <tr>
         <td>
-          <button style="border: none; background: none;">
+          <button class = "text-black" routerLink = "/explore" routerLinkActive = "active" style="border: none; background: none;" #rla="routerLinkActive">
             <img src="app/img/exploreicon.png" id = "sidebaricon" style="width: 45%; height: auto;">
             <div id = "sidebartextSmall">Explore</div>
           </button>
@@ -54,7 +64,7 @@
 
       <tr>
         <td>
-          <button style="border: none; background: none;">
+          <button class = "text-black" routerLink = "/subscriptions" routerLinkActive = "active" style="border: none; background: none;" #rla="routerLinkActive">
             <img src="app/img/subscriptionicon.png" id = "sidebaricon" style="width: 40%; height: auto;">
             <div id = "sidebartextSmall">Subscriptions</div>
           </button>   
@@ -63,7 +73,7 @@
 
       <tr>
         <td>
-          <button style="border: none; background: none;">
+          <button class = "text-black" routerLink = "/library" routerLinkActive = "active" style="border: none; background: none;" #rla="routerLinkActive">
             <img src="app/img/libraryicon.png" id = "sidebaricon" style="width: 40%; height: auto;">
             <div id = "sidebartextSmall">Library</div>
           </button>

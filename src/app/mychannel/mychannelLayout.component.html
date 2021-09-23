@@ -1,0 +1,58 @@
+<!-- The reason I do not use col-1,2,3, etc and row is because how youtubes bars work. However, in older versions I did use them.-->
+
+<style>
+    .parallax {
+      /* The image used */
+      background-image: url("https://youtube.lurkmore.com/ggpht/xdDjxTYkAK7yHew1lRZAdilfQQjQD5W67BeqtUzVVb_48RLJcFF3rQlpRlZG_7J6eXjnRJ4A=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj");
+    
+      /* Set a specific height */
+      width: 1444px;
+      min-height: 250px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed; 
+      background-position: 75px 56px;
+
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    </style>
+
+<!--Home-->
+<div class="container-fluid row" style="z-index: 1;" >
+    <!--header-bar></header-bar-->
+    <header-bar></header-bar>
+</div>
+
+
+
+<div class = "container d-flex" style="padding: 0; margin-left: 0; margin-right: 0;">
+    <div class = "flex-column align-items-center">
+        <sidebar-bar></sidebar-bar>
+    </div>
+    <div class="flex-column" style="position: relative; left: 75px; padding-top: 33px;">
+        <div class="flex-row parallax" style="z-index: -1;">
+        </div>
+        <div class="flex-row" style="padding-top: 20px; background-color: green;">
+            <div class = "d-flex container">
+                <img src = "https://yt3.ggpht.com/ytc/AKedOLT_BgSvzbNnFieMpuAeK4cDhe-Nyh2smZPipSg_6Q=s176-c-k-c0x00ffffff-no-rj" style="border-radius: 50%; width: 6%; height: auto;">
+                <div class = "d-flex flex-column container">
+                    <div class = "d-flex flex-row" style="font-size: 25px;">
+                        penguinz0
+                    </div>
+                    <div class = "d-flex flex-row">
+                        8.88M subscribers
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row navbar  sticky-top" style="position: sticky; top: 56px; background-color: red;">
+            Nav bar
+            <nav></nav>
+        </div>
+        <div class="flex-row" style="z-index: -1;">
+            <mychannel-container></mychannel-container>
+            <mychannel-container></mychannel-container>
+            <mychannel-container></mychannel-container>
+        </div>
+    </div>
+</div>

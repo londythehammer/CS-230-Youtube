@@ -1,21 +1,18 @@
 <!-- The reason I do not use col-1,2,3, etc and row is because how youtubes bars work. However, in older versions I did use them.-->
 
 <!--Home-->
-<div class="container-fluid row" style="z-index: 1; background-color: red;" >
+<div class="container-fluid row" style="z-index: 1;" >
     <header-bar></header-bar>
 </div>
 
 
 <div class = "container d-flex" style="padding: 0; margin-left: 0; margin-right: 0;">
-    <div class = "flex-column align-items-center" style="background-color: blue;">
+    <div class = "flex-column align-items-center">
         <sidebar-bar></sidebar-bar>
     </div>
     <div class="flex-column" style="position: relative; left: 75px;">
-        <div class="flex-row" style="background-color: yellow;;">
-            <carousel-bar></carousel-bar>
-        </div>
         <div class="flex-row" style="z-index: -1;">
-            <homescreen></homescreen>
+            <explore-container></explore-container>
         </div>
     </div>
 </div>

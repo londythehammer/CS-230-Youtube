@@ -38,17 +38,16 @@
 }
 </style>
 
-<div id = "mainVideoCard" class="parent">
-    <div class = "reccomendation child">
+<div id = "mainVideoCard">
+    <div class = "reccomendation">
         <div class= "preview">
-            <img alt = "thumbnail" [src] = "videoImage" style="position: relative; width: 320px">
+            <img alt = "thumbnail" [src] = "videoImage" style="width: 210px">
             <div class = "timestamp">{{videoLength}}</div>
         </div>
 
         <div class = "info" style="padding-top: 10px;">
-            <img class = "icon" alt = "a" [src] = "videoCreatorImage" style="width: 48px">
-            
-            <div class = "videoInfo" style="margin-left: 10px">
+           
+            <div class = "videoInfo" style="margin-left: 0px">
                 <div class = "title" style = "font-size: 95%; font-weight: bold;">{{videoTitle}}</div>
                 <div class = "username" style = "font-size: 90%;">{{videoCreator}}</div>
                 <div class = "view-info" style = "font-size: 90%;">
