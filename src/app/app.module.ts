@@ -20,6 +20,7 @@ import { SubscriptionsLayoutComponent } from './subscriptions/subscriptionsLayou
 import { VideoCardSmallComponent } from './videocard small/videocardSmall.component';
 import { MyChannelLayoutComponent } from './mychannel/mychannelLayout.component';
 import { MyChannel } from './mychannel/mychannel.component';
+import { HomeVideoCardComponent } from './videocard/homeVideoCard.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MyChannel } from './mychannel/mychannel.component';
     SubscriptionsLayoutComponent,
     VideoCardSmallComponent,
     MyChannelLayoutComponent,
-    MyChannel
+    MyChannel,
+    HomeVideoCardComponent
   ],
   imports: [
     BrowserModule,

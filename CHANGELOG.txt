@@ -1,3 +1,6 @@
-Main features:
-Created component named “layout” using Bootstrap flex-row and flex-col which contains all of the different components.
-I did not have to add a .ts file with data binding because I had already done that before last lab when I made the video component.
+Updated the videoCardComponent to work with the ngFor loop
+- Made it so that components can be added easily.
+
+Added
+- homeVideoCard component
+- video.model.ts
