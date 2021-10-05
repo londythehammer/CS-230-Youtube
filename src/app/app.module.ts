@@ -22,6 +22,9 @@ import { MyChannelLayoutComponent } from './mychannel/mychannelLayout.component'
 import { MyChannel } from './mychannel/mychannel.component';
 import { HomeVideoCardComponent } from './videocard/homeVideoCard.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,11 +45,13 @@ import { HomeVideoCardComponent } from './videocard/homeVideoCard.component';
     VideoCardSmallComponent,
     MyChannelLayoutComponent,
     MyChannel,
-    HomeVideoCardComponent
+    HomeVideoCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
