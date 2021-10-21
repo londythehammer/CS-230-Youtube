@@ -1,6 +1,8 @@
-Updated the videoCardComponent to work with the ngFor loop
-- Made it so that components can be added easily.
-
 Added
-- homeVideoCard component
-- video.model.ts
+- video stuff folder to hold the video data
+- video.info.component.ts
+- video-info.service.ts
+
+Updated
+- homescreen.component.ts to use the video service component rather than the hard-coded list.
+- homescreen.component.html to use the ng for loop slightly differently

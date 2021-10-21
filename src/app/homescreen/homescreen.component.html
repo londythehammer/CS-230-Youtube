@@ -16,10 +16,14 @@
     <div class="grid-container">
         <div class="grid-item"><videocard videoTitle = "Drake Got Scammed" videoCreator = "penguinz0" videoViews = "1.3M" videoLength = 7:31 videoDate = "4 days ago" videoImage = "https://i.ytimg.com/vi/RXy6RfSYieU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAko_fzhs16NaHlttzjESyonlWMww" videoCreatorImage = "https://yt3.ggpht.com/ytc/AKedOLT_BgSvzbNnFieMpuAeK4cDhe-Nyh2smZPipSg_6Q=s68-c-k-c0x00ffffff-no-rj"></videocard>
         </div>
-        <div *ngFor = "let video of videos;">
+        <!--div *ngFor = "let video of videos;">
           <div class="grid-item">
             <homeVideocard videoTitle = {{video.videoTitle}} videoCreator = {{video.videoCreator}} videoViews = {{video.videoViews}} videoLength = {{video.videoLength}} videoDate = {{video.videoDate}} videoImage = {{video.videoImage}} videoCreatorImage = {{video.videoCreatorImage}}></homeVideocard>
-          </div>
+          </div-->
+          <div *ngFor = "let video of videos;">
+            <div class="grid-item">
+              <homeVideocard videoTitle = {{video.videoTitle}} videoCreator = {{video.videoCreator}} videoViews = {{video.videoViews}} videoLength = {{video.videoLength}} videoDate = {{video.videoDate}} videoImage = {{video.videoImage}} videoCreatorImage = {{video.videoCreatorImage}}></homeVideocard>
+            </div>
         </div>
 
       </div>
