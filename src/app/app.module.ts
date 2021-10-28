@@ -23,7 +23,9 @@ import { MyChannel } from './mychannel/mychannel.component';
 import { HomeVideoCardComponent } from './videocard/homeVideoCard.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { UserInfoComponent } from './user-info.component';
+import { UploadPageComponent } from './uploadVideoPage/upload.component';
+import { UploadLayoutComponent } from './uploadVideoPage/uploadLayout.component';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,12 +48,14 @@ import { UserInfoComponent } from './user-info.component';
     MyChannelLayoutComponent,
     MyChannel,
     HomeVideoCardComponent,
-    UserInfoComponent
+    UploadPageComponent,
+    UploadLayoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

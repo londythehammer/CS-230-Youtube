@@ -1,0 +1,38 @@
+<form #postForm = "ngForm" (ngSubmit) = "onAddVideo(postForm.value)">
+  <div class="mb-3">
+      <label for="videoCreator" class="form-label">Creator Name</label>
+      <input type="videoCreator" ngModel name="videoCreator" class="form-control">
+  </div>
+
+  <div class="mb-3">
+      <label for="videoCreatorImage" class="form-label">User Image</label>
+      <input type="videoCreatorImage" ngModel name="videoCreatorImage" class="form-control">
+  </div>
+
+  <div class="mb-3">
+      <label for="videoDate" class="form-label">Date Created</label>
+      <input type="videoDate" ngModel name="videoDate" class="form-control">
+  </div>
+
+  <div class="mb-3">
+      <label for="videoImage" class="form-label">Thumbnail</label>
+      <input type="videoImage" ngModel name="videoImage" class="form-control">
+  </div>
+
+  <div class="mb-3">
+      <label for="videoLength" class="form-label">Length</label>
+      <input type="videoLength" ngModel name="videoLength" class="form-control">
+  </div>
+
+  <div class="mb-3">
+    <label for="videoTitle" class="form-label">Title</label>
+    <input type="videoTitle" ngModel name="videoTitle" class="form-control">
+</div>
+
+<div class="mb-3">
+  <label for="videoViews" class="form-label">Views</label>
+  <input type="videoViews" ngModel name="videoViews" class="form-control">
+</div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

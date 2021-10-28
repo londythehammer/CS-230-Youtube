@@ -1,11 +1,14 @@
-import { Component, Injectable, Input, OnInit } from "@angular/core";
-import { VideoInfoService } from "./video-info.service";
+import { Component, Input } from "@angular/core";
+import { VideoInfoService } from "../video-stuff/video-info.service";
 import { Video } from "../videocard/video.model";
 
 
+@Component({
+    selector : 'uploadVideoPage',
+    templateUrl: 'upload.component.html'
+})
 
-@Injectable()
-export class VideoInfoComponent implements OnInit
+export class UploadPageComponent
 {
     @Input()
     videoCreator!: string;
@@ -45,5 +48,5 @@ export class VideoInfoComponent implements OnInit
                 console.log(data);
             })
         }
-    }
+    } 
 }

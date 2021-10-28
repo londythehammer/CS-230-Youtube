@@ -16,4 +16,9 @@ export class VideoInfoService
     {
         return this.http.get<Video[]>(this.baseUrl + this.myInfoEndpoints);
     }
+
+    addVideo(newVideo: Video) {
+        this.getVideos().subscribe();
+        return this.http.post(this.baseUrl + this.myInfoEndpoints, newVideo);
+    }
 }

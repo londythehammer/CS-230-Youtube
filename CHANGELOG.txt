@@ -1,8 +1,11 @@
 Added
-- video stuff folder to hold the video data
-- video.info.component.ts
-- video-info.service.ts
+- Upload video component
+- Layout for upload video component
+- New page for uploading videos
+
 
 Updated
-- homescreen.component.ts to use the video service component rather than the hard-coded list.
-- homescreen.component.html to use the ng for loop slightly differently
+- video info components to allow uploading to database.
+
+Removed
+- user-info components
