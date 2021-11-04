@@ -39,7 +39,6 @@
               "src/app/img/bellicon.png",
               "src/app/img/appsicon.png",
               "src/app/img/videoicon.png"
-
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
@@ -117,6 +116,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "youtube:build:production",
+            "firebaseProject": "fir-23bde",
+            "firebaseHostingSite": "fir-23bde"
           }
         }
       }

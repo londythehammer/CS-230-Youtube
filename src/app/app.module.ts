@@ -26,6 +26,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { UploadPageComponent } from './uploadVideoPage/upload.component';
 import { UploadLayoutComponent } from './uploadVideoPage/uploadLayout.component';
 import { FormsModule, NgForm } from '@angular/forms';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
 
 @NgModule({
   declarations: [
@@ -55,7 +59,10 @@ import { FormsModule, NgForm } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase, 'youtube'),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]

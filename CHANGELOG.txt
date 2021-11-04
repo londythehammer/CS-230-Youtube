@@ -1,11 +1,8 @@
 Added
-- Upload video component
-- Layout for upload video component
-- New page for uploading videos
+- Firebase hosting
+- AngularFire
+- database.service.ts
 
 
 Updated
-- video info components to allow uploading to database.
-
-Removed
-- user-info components
+- video info components to work with AngularFire database

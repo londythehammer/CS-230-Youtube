@@ -21,4 +21,9 @@ export class VideoInfoService
         this.getVideos().subscribe();
         return this.http.post(this.baseUrl + this.myInfoEndpoints, newVideo);
     }
+
+    editVideo(newVideo: Video) {
+        this.getVideos().subscribe();
+        return this.http.put(this.baseUrl + this.myInfoEndpoints, newVideo);
+    }
 }

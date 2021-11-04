@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-23bde": {
+      "hosting": {
+        "youtube": [
+          "fir-23bde"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-23bde"
+  }
+}

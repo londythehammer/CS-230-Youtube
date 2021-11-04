@@ -1,6 +1,7 @@
 import { Component, Injectable, Input, OnInit } from "@angular/core";
 import { VideoInfoService } from "./video-info.service";
 import { Video } from "../videocard/video.model";
+import { DatabaseService } from "../database.service";
 
 
 
@@ -25,7 +26,7 @@ export class VideoInfoComponent implements OnInit
     videoInfo: Video | undefined;
     videos:Array<Video> = [];
 
-    constructor(private videoInfoService:VideoInfoService)
+    constructor(private videoInfoService:VideoInfoService, private dbService:DatabaseService)
     {
 
     }
