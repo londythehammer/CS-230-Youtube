@@ -1,8 +1,4 @@
 Added
-- Firebase hosting
-- AngularFire
-- database.service.ts
-
-
-Updated
-- video info components to work with AngularFire database
+- auth.components and service
+- Enabled authenication
+- Routed logging in for users

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthComponent } from './auth/auth.component';
 import { ExploreLayoutComponent } from './explore/exploreLayout.component';
 import { LayoutComponent } from './layout/layout.component';
 import { LibraryLayoutComponent } from './library/libraryLayout.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'subscriptions', component : SubscriptionsLayoutComponent },
   { path: 'mychannel', component : MyChannelLayoutComponent},
   { path: 'uploadVideo', component : UploadPageComponent},
+  { path: 'switchAccount', component : AuthComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
    
 
